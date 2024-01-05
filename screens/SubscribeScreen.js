@@ -1,7 +1,7 @@
-import * as React from "react";
-import {Alert, Image, StyleSheet, Text, TextInput, View} from "react-native";
-import Button from "../components/Button";
-import {validateEmail} from "../utils";
+import * as React from 'react';
+import { Alert, Image, StyleSheet, Text, TextInput, View } from 'react-native';
+import Button from '../components/Button';
+import { validateEmail } from '../utils';
 
 /**
  * Renders the SubscribeScreen component.
@@ -18,7 +18,7 @@ const SubscribeScreen = () => {
       <Image
         style={styles.logo}
         // @ts-ignore
-        source={require("../assets/little-lemon-logo-grey.png")}
+        source={require('../assets/little-lemon-logo-grey.png')}
       />
       <Text style={styles.title}>
         Subscribe to our newsletter for our latest delicious recipes!
@@ -29,11 +29,11 @@ const SubscribeScreen = () => {
         onChangeText={setEmail}
         keyboardType="email-address"
         textContentType="emailAddress"
-        placeholder={"Type your email"}
+        placeholder={'Type your email'}
       />
       <Button
         onPress={() => {
-          Alert.alert("Thanks for subscribing, stay tuned!");
+          Alert.alert('Thanks for subscribing, stay tuned!');
         }}
         disabled={!isEmailValid}
       >
@@ -47,17 +47,17 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 24,
-    backgroundColor: "white",
+    backgroundColor: 'white',
   },
   title: {
-    color: "#333333",
-    textAlign: "center",
+    color: '#333333',
+    textAlign: 'center',
     fontSize: 20,
   },
   logo: {
     height: 100,
     width: 300,
-    resizeMode: "contain",
+    resizeMode: 'contain',
     marginBottom: 32,
   },
   input: {
@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     padding: 10,
     fontSize: 16,
-    borderColor: "#EDEFEE",
+    borderColor: '#EDEFEE',
   },
 });
 

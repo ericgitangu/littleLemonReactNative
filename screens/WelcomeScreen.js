@@ -1,6 +1,6 @@
-import React from "react";
-import { Text, View, StyleSheet, Image } from "react-native";
-import Button from "../components/Button";
+import React from 'react';
+import { Text, View, StyleSheet, Image } from 'react-native';
+import Button from '../components/Button';
 
 /**
  * Represents the Welcome Screen component.
@@ -14,7 +14,7 @@ const WelcomeScreen = ({ navigation }) => {
         <Image
           style={styles.logo}
           // @ts-ignore
-          source={require("../assets/little-lemon-logo.png")}
+          source={require('../assets/little-lemon-logo.png')}
         />
         <Text style={styles.title}>
           Little Lemon, your local Mediterranean Bistro
@@ -22,7 +22,7 @@ const WelcomeScreen = ({ navigation }) => {
       </View>
       <Button
         onPress={() => {
-          navigation.navigate("Subscribe");
+          navigation.navigate('Subscribe');
         }}
         disabled={false} // Add the 'disabled' property with a value
       >
@@ -47,15 +47,15 @@ const styles = StyleSheet.create({
   logo: {
     height: 200,
     width: 300,
-    resizeMode: "contain",
+    resizeMode: 'contain',
   },
   title: {
     marginTop: 48,
     paddingVertical: 10,
-    color: "#333333",
-    textAlign: "center",
+    color: '#333333',
+    textAlign: 'center',
     fontSize: 20,
-    fontWeight: "bold",
+    fontWeight: 'bold',
   },
 });
 

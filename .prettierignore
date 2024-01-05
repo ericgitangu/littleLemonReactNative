@@ -1,0 +1,15 @@
+# This file is used to configure Prettier's behavior for ignoring files.
+# Ignore node_modules directory
+node_modules
+
+# Ignore build output directories
+dist
+build
+
+# Ignore coverage reports
+coverage
+
+# Ignore compiled files
+*.min.js
+*.min.css
+*.map

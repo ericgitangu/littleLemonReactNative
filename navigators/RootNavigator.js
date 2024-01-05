@@ -1,7 +1,7 @@
-import * as React from "react";
-import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import WelcomeScreen from "../screens/WelcomeScreen";
-import SubscribeScreen from "../screens/SubscribeScreen";
+import * as React from 'react';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import WelcomeScreen from '../screens/WelcomeScreen';
+import SubscribeScreen from '../screens/SubscribeScreen';
 
 const Stack = createNativeStackNavigator();
 

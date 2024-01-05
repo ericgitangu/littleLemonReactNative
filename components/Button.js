@@ -1,7 +1,7 @@
-import * as React from "react";
-import { Pressable, Text, StyleSheet } from "react-native";
+import * as React from 'react';
+import { Pressable, Text, StyleSheet } from 'react-native';
 
-const Button = ({onPress, children, disabled}) => {
+const Button = ({ onPress, children, disabled }) => {
   return (
     <Pressable
       onPress={onPress}
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 16,
     color: 'white',
-  }
+  },
 });
 
 export default Button;

@@ -1,6 +1,6 @@
-import { NavigationContainer } from "@react-navigation/native";
-import RootNavigator from "./navigators/RootNavigator";
-import React from "react";
+import { NavigationContainer } from '@react-navigation/native';
+import RootNavigator from './navigators/RootNavigator';
+import React from 'react';
 
 /**
  * The main component of the application.
