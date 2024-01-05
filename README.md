@@ -12,7 +12,7 @@ To run the app locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/littleLemonReactNative.git
+   git clone https://github.com/ericgitangu/littleLemonReactNative.git
    ```
 
 2. Install the dependencies:
